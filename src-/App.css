@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background: chartreuse;
+  color:white;
+}
+
+.navlinks{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.container{
+  display: flex;
+}
+.main-content{
+  flex: 6;
+  background-color: red;
+}
